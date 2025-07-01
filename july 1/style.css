@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+.twoSec {
+    background-color: #f0f6fb;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logo {
+    width: 166px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.navItems {
+    display: flex;
+    gap: 25px;
+}
+
+.navItems li {
+    font-size: 19px;
+    cursor: pointer;
+    font-family: system-ui;
+}
+
+.anker {
+    font-size: 18px !important;
+}
+
+.anker:hover {
+    color: #00b3e7;
+}
+
+.anker i {
+    color: #00b3e7;
+}
+
+li i {
+    padding: 0 5px;
+}
+
+
+/* Section2 */
+
+.sec_two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    height: 85vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.content h3 {
+    font-size: 35px;
+}
+
+.content h1 {
+    font-size: 69px;
+    font-weight: revert-layer;
+    letter-spacing: -2px;
+    word-spacing: -4px;
+}
+
+.content p {
+    font-size: 19px;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.btns button {
+    background: #00b6e8;
+    padding: 18px 30px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 9px;
+}
+
+.btns button:hover {
+    background-color: #424242;
+    box-shadow: 0px 6px 1px #00b6e8;
+    transition: all 0.4 linear;
+}
+
+.btns a {
+    font-size: 21px;
+    color:#424242
+}
+
+.btns a:hover{
+    transition: 1s;
+    color: #00b6e8;
+}

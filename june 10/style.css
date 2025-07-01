@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: greenyellow;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: white;
+    padding: 31px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 30%;
+    height: 22rem;
+    justify-content: center;
+}
+
+input {
+    padding: 18px;
+    background-color: #ebeaea;
+    color: gray;
+    outline: none;
+    border: none;
+    font-size: 19px;
+}
+
+input[type="submit"] {
+    background: #21b821;
+    color: white;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover{
+    background-color: black;
+    cursor:pointer ;
+}
