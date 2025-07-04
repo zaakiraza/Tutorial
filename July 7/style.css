@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* position */
+/* static */
+/* relative */
+/* sticky */
+/* absolute */
+/* fixed */
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    border: 1px solid black;
+    height: 300px;
+    width: 400px;
+}
+
+.box1 {
+    background-color: red;
+}
+.box2 {
+    background-color: green;
+    /* position: relative; */
+    /* position: absolute;  */
+    /* position: sticky; */
+    /* position: fixed; */
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 0;
+}
+.box3 {
+    background-color: blue;
+}
+.box4 {
+    background-color: yellow;
+}
