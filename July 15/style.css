@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Source Sans Pro Topnav, sans-serif;
+}
+
+.navi1 {
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav1 ul li:first-child {
+    width: 3%;
+}
+
+.nav1 img {
+    width: 100%;
+}
+
+.nav1 ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 45px;
+}
+
+ul li a i {
+    padding-left: 4px;
+    font-size: 15px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.fa-magnifying-glass {
+    font-size: 22px;
+    color: black;
+    position: relative;
+    left: -81px;
+}
+
+
+/* Seconf Nav */
+.navi2 ul {
+    display: flex;
+    gap: 38px;
+}
+
+.navi2 {
+    background: black;
+    padding: 10px 20px;
+    position: sticky;
+    top: 62px;
+}
+
+.navi2 ul li a {
+    color: white;
+    font-size: 14px;
+}
+
+
+/* Side Menu */
+.sideMenu {
+    padding: 10px 20px;
+    background: #d9d9d9;
+    width: 17%;
+    overflow-y: scroll;
+}
+
+.sideMenu h1 {
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+.sideMenu ul li {
+    line-height: 1.5;
+    font-size: 15px;
+}
