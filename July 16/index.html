@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c681fd371f.js" crossorigin="anonymous"></script>
+    <title>Drop Down</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li id="sevices">Services<i id="b" class="fa-solid fa-caret-down"></i></li>
+            <li>Testimonials</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <ul class="box" id="box">
+        <li>Websites</li>
+        <li>Mobile App</li>
+        <li>SEO</li>
+        <li>AI integration</li>
+    </ul>
+
+</body>
+
+<script>
+    let a = document.getElementById('box');
+    let sevices = document.getElementById('sevices');
+    sevices.addEventListener("click", (e) => {
+        a.style.display = 'flex';
+        b.style.transform = 'rotate(180deg)';
+    })
+</script>
+
+</html>
