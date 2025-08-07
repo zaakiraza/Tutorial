@@ -16,28 +16,69 @@
 .box3,
 .box4 {
     border: 1px solid black;
-    height: 300px;
-    width: 400px;
+    height: 100px;
+    width: 200px;
 }
 
 .box1 {
     background-color: red;
 }
+
 .box2 {
     background-color: green;
     /* position: relative; */
     /* position: absolute;  */
     /* position: sticky; */
     /* position: fixed; */
-    top: 50px;
+    /* top: 50px;
     left: 0px;
     right: 0px;
     bottom: 0px;
-    z-index: 0;
+    z-index: 0; */
 }
+
 .box3 {
     background-color: blue;
 }
+
 .box4 {
     background-color: yellow;
+}
+
+p {
+    width: 100%;
+    height: 40px;
+    overflow: scroll;
+}
+
+.inner {
+    height: 80px;
+    width: 80px;
+    background: white;
+    border-radius: 50%;
+}
+
+.outer {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 2s;
+    animation: zakir 2s linear;
+}
+
+@keyframes zakir {
+    0% {
+        background: conic-gradient(wheat 100%, black 0deg)
+    }
+    50%{
+        background: conic-gradient(wheat 50%, black 0deg)
+    }
+    80%{
+        background: conic-gradient(wheat 0%, black 0deg)
+    }
 }
